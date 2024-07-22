@@ -8,17 +8,21 @@ import {
 import { useToast } from "@/components/ui/use-toast";
 import BTC from "@/assets/Bitcoin.png";
 import ETH from "@/assets/ETH.png";
+import Footer from "@/shared/Footer";
+import Navbar from "@/shared/Navbar";
 
 const Pay = () => {
   const { toast } = useToast();
   return (
+    <>
+    <Navbar />
     <div
       style={{
         display: "flex",
         justifyContent: "center",
         width: "100%",
-        marginTop: "50px",
-        marginBottom: "20px",
+        marginTop: "70px",
+        marginBottom: "70px",
       }}
     >
       <div>
@@ -92,8 +96,14 @@ const Pay = () => {
                     }}
                   >
                     Username: williamouyang@gmx.com
-                    Message: Payment to k&W LLC
                   </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Message: Payment to K&W LLC
+                    </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -190,7 +200,11 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Email me to arrange a meeting: williamouyang@gmx.com
+                <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  > Email me to arrange a meeting: williamouyang@gmx.com</h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -209,7 +223,13 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                  To be determined. 
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -231,7 +251,7 @@ const Pay = () => {
                   <h1 style={{fontSize:'20px'}}>Send mail to: 6335 Paseo Santa Cruz, Pleasanton, CA 94566</h1>
                   <h1
                     style={{
-                      color: "skyblue",
+                      color: "blue",
                       fontSize:'20px',
                       textDecoration: "underline",
                     }}
@@ -246,7 +266,7 @@ const Pay = () => {
                       });
                     }}
                   >
-                    <button>Copy to Clipboard</button>
+                    <button><u>Copy to Clipboard</u></button>
                   </h1>
                 </AccordionContent>
               </AccordionItem>
@@ -458,8 +478,7 @@ const Pay = () => {
                   </h1>
                   <h1
                     style={{
-                      color: "skyblue",
-                      textDecoration: "underline",
+                      color: "blue",
                     }}
                     onClick={() => {
                       navigator.clipboard.writeText(
@@ -477,7 +496,9 @@ const Pay = () => {
                           fontSize: "20px",
                         }}
                       >
+                        <u>
                         Copy to Clipboard
+                        </u>
                       </h1>
                     </button>
                   </h1>
@@ -647,7 +668,7 @@ const Pay = () => {
                       <button>
                         <h1
                           style={{
-                            color: "skyblue",
+                            color: "blue",
                             textDecoration: "underline",
                             fontSize:'20px'
                           }}
@@ -723,7 +744,7 @@ const Pay = () => {
                       <button>
                         <h1
                           style={{
-                            color: "skyblue",
+                            color: "blue",
                             textDecoration: "underline",
                               fontSize:'20px'
                           }}
@@ -743,7 +764,7 @@ const Pay = () => {
                       <button>
                         <h1
                           style={{
-                            color: "skyblue",
+                            color: "blue",
                             textDecoration: "underline",
                               fontSize:'20px'
                           }}
@@ -765,6 +786,8 @@ const Pay = () => {
         </ul>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
