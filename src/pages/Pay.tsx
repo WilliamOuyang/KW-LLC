@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import { useToast } from "@/components/ui/use-toast";
 import BTC from "@/assets/Bitcoin.png";
+import ETH from "@/assets/ETH.png";
 
 const Pay = () => {
   const { toast } = useToast();
@@ -53,7 +54,20 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Username: $WILLKOUYANG
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Payment Message: Payment to K&W LLC
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -72,7 +86,14 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Username: williamouyang@gmx.com
+                    Message: Payment to k&W LLC
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -91,7 +112,27 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Username: William-Ouyang-3
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    4 Numbers: 1375
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Payment Message: Payment to K&W LLC
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -110,7 +151,27 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Username: gwko624p@gmail.com
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Name: William Ouyang
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Message to attach to payment: Payment to K&W LLC
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -129,7 +190,7 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  Email me to arrange a meeting: williamouyang@gmx.com
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -167,25 +228,26 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Send mail to: 6335 Paseo Santa Cruz, Pleasanton, CA 94566
+                  <h1 style={{fontSize:'20px'}}>Send mail to: 6335 Paseo Santa Cruz, Pleasanton, CA 94566</h1>
                   <h1
-                          style={{
-                            color: "skyblue",
-                            textDecoration: "underline",
-                          }}
-                          onClick={() => {
-                            navigator.clipboard.writeText(
-                              "6335 Paseo Santa Cruz, Pleasanton, CA 94566"
-                            );
-                            toast({
-                              title: "Address copied to clipboard ",
-                              description:
-                                "6335 Paseo Santa Cruz, Pleasanton, CA 94566",
-                            });
-                          }}
-                        >
-                          <button>Copy to Clipboard</button>
-                        </h1>
+                    style={{
+                      color: "skyblue",
+                      fontSize:'20px',
+                      textDecoration: "underline",
+                    }}
+                    onClick={() => {
+                      navigator.clipboard.writeText(
+                        "6335 Paseo Santa Cruz, Pleasanton, CA 94566"
+                      );
+                      toast({
+                        title: "Address copied to clipboard ",
+                        description:
+                          "6335 Paseo Santa Cruz, Pleasanton, CA 94566",
+                      });
+                    }}
+                  >
+                    <button>Copy to Clipboard</button>
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -204,7 +266,42 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >First Name: William
+                    </h1>
+                    <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >Middle Name: Kadin
+                    </h1>
+                    <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >Last Name: Ouyang
+                    </h1>
+                    <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >State: California
+                    </h1>
+                    <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >E-Mail Address: williamouyang@gmx.com
+                    </h1>
+                    <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >Receiver's bank account information: Bank Of America
+                    </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -223,7 +320,117 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    <strong>
+                      <u>Domestic Wire Information</u>
+                    </strong>
+                  </h1>
+                  <br />
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Bank Name: Bank of America, N.A
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Bank Address: 222 Broadway, New York, NY 10038
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    ABA/Routing Number: 026009593
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Account Number: 325158599902
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    For Electronic Transfers & Payments (ACH): 121000358
+                  </h1>
+
+                  <br />
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    <strong>
+                      <u>International Wire Information</u>
+                    </strong>
+                  </h1>
+                  <br />
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    SWIFT Code: BOFAUS3N
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Bank Name: Bank of America, N.A
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Bank Address: 222 Broadway, New York, NY 10038
+                  </h1>
+
+                  <br />
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    <strong>
+                      <u>If transfer sent in foreign currency (NOT USD)</u>
+                    </strong>
+                  </h1>
+                  <br />
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    SWIFT Code: BOFAUS6S
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Bank Name: Bank of America, N.A
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Bank Address: 555 California St. San Francisco, CA 94104
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -242,25 +449,38 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                https://strike.me/williamouyang/
-                <h1
-                          style={{
-                            color: "skyblue",
-                            textDecoration: "underline",
-                          }}
-                          onClick={() => {
-                            navigator.clipboard.writeText(
-                              "https://strike.me/williamouyang/"
-                            );
-                            toast({
-                              title: "Strike Tip URL copied to clipboard",
-                              description:
-                                "https://strike.me/williamouyang/",
-                            });
-                          }}
-                        >
-                           <button>Copy to Clipboard</button>
-                        </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    https://strike.me/williamouyang/
+                  </h1>
+                  <h1
+                    style={{
+                      color: "skyblue",
+                      textDecoration: "underline",
+                    }}
+                    onClick={() => {
+                      navigator.clipboard.writeText(
+                        "https://strike.me/williamouyang/"
+                      );
+                      toast({
+                        title: "Strike Tip URL copied to clipboard",
+                        description: "https://strike.me/williamouyang/",
+                      });
+                    }}
+                  >
+                    <button>
+                      <h1
+                        style={{
+                          fontSize: "20px",
+                        }}
+                      >
+                        Copy to Clipboard
+                      </h1>
+                    </button>
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -279,7 +499,98 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Region: Domestic (U.S.)
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Type of Account: Someone else's personal account at another
+                    bank (only transfers to)
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Region: Domestic (U.S.)
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    First Name: William
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Last Name: Ouyang
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Nickname: William Ouyang
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Street Address: 6335 Paseo Santa Cruz
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    City: Pleasanton
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    State: California{" "}
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    ZIP code: 94566{" "}
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Routing Number: 026009593
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Account Number: 325158599902
+                  </h1>
+                  <h1
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  >
+                    Account Type: Checkings
+                  </h1>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -298,7 +609,64 @@ const Pay = () => {
                   </h1>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      width: "100%",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        background: "white",
+                        padding: "8px",
+                        borderRadius: "5%",
+                      }}
+                    >
+                      <img src={ETH} />
+                    </div>
+
+                    <div
+                      style={{
+                        display: "flex",
+                        width: "100%",
+                        justifyContent: "right",
+                        flexDirection: "column",
+                      }}
+                    >
+                      <button>
+                        <h1
+                          style={{
+                            fontSize: "20px",
+                          }}
+                        >
+                          0x2D05297EbA0dD640f4130F9b0210AF696100aeae
+                        </h1>
+                      </button>
+                      <button>
+                        <h1
+                          style={{
+                            color: "skyblue",
+                            textDecoration: "underline",
+                            fontSize:'20px'
+                          }}
+                          onClick={() => {
+                            navigator.clipboard.writeText(
+                              "0x2D05297EbA0dD640f4130F9b0210AF696100aeae"
+                            );
+                            toast({
+                              title: "Ethereum wallet address copied to clipboard",
+                              description:
+                                "0x2D05297EbA0dD640f4130F9b0210AF696100aeae",
+                            });
+                          }}
+                        >
+                          Copy to Clipboard
+                        </h1>
+                      </button>
+                    </div>
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -344,22 +712,28 @@ const Pay = () => {
                       }}
                     >
                       <button>
-                        <h1>3BTuBzA2GpTbXUxEoZLCjhsT3jbCj3HEV8</h1>
+                        <h1
+                          style={{
+                            fontSize: "20px",
+                          }}
+                        >
+                          3BTuBzA2GpTbXUxEoZLCjhsT3jbCj3HEV8
+                        </h1>
                       </button>
                       <button>
                         <h1
                           style={{
                             color: "skyblue",
                             textDecoration: "underline",
+                              fontSize:'20px'
                           }}
                           onClick={() => {
                             navigator.clipboard.writeText(
                               "3BTuBzA2GpTbXUxEoZLCjhsT3jbCj3HEV8"
                             );
                             toast({
-                              title: "Wallet address copied to clipboard",
-                              description:
-                                "3BTuBzA2GpTbXUxEoZLCjhsT3jbCj3HEV8",
+                              title: "Bitcoin wallet address copied to clipboard",
+                              description: "3BTuBzA2GpTbXUxEoZLCjhsT3jbCj3HEV8",
                             });
                           }}
                         >
@@ -371,6 +745,7 @@ const Pay = () => {
                           style={{
                             color: "skyblue",
                             textDecoration: "underline",
+                              fontSize:'20px'
                           }}
                           onClick={() => {
                             window.open(
