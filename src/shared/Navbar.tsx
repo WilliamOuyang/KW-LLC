@@ -50,7 +50,7 @@ const Navbar = () => {
 
 <h1 style={{ position: "absolute", left: "60px", fontSize:'35px', fontFamily: 'GT'}}>
 <a href="/">
-     K&W
+     K&W OUYANG
 </a>
 </h1>
 
