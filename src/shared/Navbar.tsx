@@ -256,9 +256,9 @@ onMouseLeave={() => setMenu5(false)}
 className="bg-card border"
 >
 <ul>
-<a href="/payments">
+<a href="/pay">
 <li className="hover:bg-accent" style={{ padding: "6px 10px 3px 15px"}}>
-  Payments
+  Pay
 </li>
 </a>
 <a href="https://pay.williamouyang.org/" target="_blank">

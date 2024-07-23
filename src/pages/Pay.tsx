@@ -12,9 +12,16 @@ import ETH from "@/assets/ETH.png";
 import Footer from "@/shared/Footer";
 import Navbar from "@/shared/Navbar";
 import { Copy } from "lucide-react";
+import { useEffect } from "react";
 
 const Pay = () => {
   const { toast } = useToast();
+
+  useEffect(() => {
+    document.title = "Pay | W&K OUYANG";
+  }, []);
+
+
   return (
     <>
       <Navbar />
