@@ -11,7 +11,7 @@ import BTC from "@/assets/Bitcoin.png";
 import ETH from "@/assets/ETH.png";
 import Footer from "@/shared/Footer";
 import Navbar from "@/shared/Navbar";
-import { Clipboard, Copy } from "lucide-react";
+import { Copy } from "lucide-react";
 
 const Pay = () => {
   const { toast } = useToast();

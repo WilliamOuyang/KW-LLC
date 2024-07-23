@@ -1,7 +1,6 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import ArrowDown from "@/assets/Icon_arrow_down.svg";
 import { useState } from "react";
-import { X } from "lucide-react";
 
 const Navbar = () => {
   const [Menu1, setMenu1] = useState<boolean>(false);
