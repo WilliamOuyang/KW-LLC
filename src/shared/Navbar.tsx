@@ -5,7 +5,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [Menu1, setMenu1] = useState<boolean>(false);
   const [Menu2, setMenu2] = useState<boolean>(false);
-  const [Menu3, setMenu3] = useState<boolean>(false);
+  // const [Menu3, setMenu3] = useState<boolean>(false);
   const [Menu4, setMenu4] = useState<boolean>(false);
   const [Menu5, setMenu5] = useState<boolean>(false);
 
@@ -57,7 +57,7 @@ const Navbar = () => {
     <ModeToggle />
   </div>
 
-{/* English Code Below */}
+{/* English Code Below
 <div style={{position:'absolute', right:"120px"}}><div className="menu-parent" style={{ position: "relative"}}>
 
 <div style={{display:'flex', alignContent:'baseline'}} className="cursor-pointer" onMouseEnter={() => setMenu3(true)} onMouseLeave={() => setMenu3(false)}>
@@ -105,7 +105,7 @@ Español
 )}
 
 </div>
-</div>
+</div> */}
 {/* English Code Above */}
 
 
